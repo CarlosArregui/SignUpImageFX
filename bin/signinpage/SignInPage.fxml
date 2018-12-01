@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="500.0">
+         <image>
+            <Image url="@../../../../Desktop/2DAM/INTERFACES/shrak.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #ff000090;">
+         <children>
+            <JFXButton layoutX="47.0" layoutY="284.0" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: white; -fx-border-color: white; -fx-border-radius: 10;" text="About us" textFill="RED" />
+            <JFXButton layoutX="125.0" layoutY="284.0" style="-fx-border-color: white; -fx-border-radius: 5;" text="Sign in" textFill="WHITE" />
+            <Label layoutX="28.0" layoutY="97.0" text="SHREK IS LOVE" textFill="WHITE">
+               <font>
+                  <Font name="Algerian" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="180.0" text="SHREK IS LIFE" textFill="WHITE">
+               <font>
+                  <Font name="Algerian" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox layoutX="300.0" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: white;">
+         <children>
+            <JFXTextField focusColor="RED" labelFloat="true" promptText="first name" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField focusColor="RED" labelFloat="true" promptText="last name" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField focusColor="RED" labelFloat="true" promptText="username" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField focusColor="RED" labelFloat="true" promptText="email" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXPasswordField focusColor="RED" labelFloat="true" promptText="pasword" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <JFXPasswordField focusColor="RED" labelFloat="true" promptText="confirm password" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <JFXTextField focusColor="RED" labelFloat="true" promptText="phone number" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXToggleButton prefHeight="52.0" prefWidth="197.0" text="ERES SHREK?" toggleColor="RED">
+               <font>
+                  <Font name="Algerian" size="12.0" />
+               </font>
+            </JFXToggleButton>
+            <JFXButton style="-fx-background-color: white; -fx-border-color: #ff0000; -fx-border-radius: 5;" text="GET STARTED" textFill="RED">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Algerian" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
